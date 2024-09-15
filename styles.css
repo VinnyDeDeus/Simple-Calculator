@@ -25,13 +25,13 @@ button:active {
     box-shadow: 5px 5px 10px hsl(0, 0%, 73%) inset;
 }
 
-.clear_button {
+.clear-button {
     color: hsl(0, 0%, 100%);
     background-color: hsl(0, 75%, 50%);
     box-shadow: 5px 5px 10px hsl(0, 75%, 40%) inset;
 }
 
-.clear_button:active {
+.clear-button:active {
     color: hsl(0, 0%, 90%);
     background-color: hsl(0, 75%, 40%);
     box-shadow: 5px 5px 10px hsl(0, 75%, 30%) inset;
