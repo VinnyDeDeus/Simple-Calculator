@@ -1,0 +1,70 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(43, 74%, 49%);
+}
+
+button {
+    height: 75px;
+    width: 75px;
+    border: none;
+    border-radius: 10px;
+    color: hsl(0, 0%, 33%);
+    font-size: 1.563rem;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 5px 5px 10px hsl(0, 0%, 83%) inset;
+    cursor: pointer;
+}
+
+button:active {
+    color: hsl(0, 0%, 23%);
+    background-color: hsl(0, 0%, 90%);
+    box-shadow: 5px 5px 10px hsl(0, 0%, 73%) inset;
+}
+
+.clear_button {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 75%, 50%);
+    box-shadow: 5px 5px 10px hsl(0, 75%, 40%) inset;
+}
+
+.clear_button:active {
+    color: hsl(0, 0%, 90%);
+    background-color: hsl(0, 75%, 40%);
+    box-shadow: 5px 5px 10px hsl(0, 75%, 30%) inset;
+}
+
+input {
+    display: block;
+    width: 75%;
+    position: relative;
+    top: 12px;
+    margin: auto;
+    padding: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.563rem;
+    font-weight: bold;
+    color: hsl(0, 0%, 13%);
+    text-align: right;
+    background-color: hsl(70, 50%, 80%);
+    box-shadow: 5px 5px 10px hsl(70, 30%, 70%) inset;
+    border: none;
+}
+
+#calculator {
+    max-width: 375px;
+    background-color: hsl(0, 0%, 53%);
+    box-shadow: 5px 5px 10px hsl(43, 74%, 39%), 5px 5px 10px hsl(0, 0%, 63%) inset;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+}
+
+#keypad {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    padding: 25px;
+}
